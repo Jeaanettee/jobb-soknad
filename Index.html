@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Søknad – Informasjonsforvalter | Jeanette Bellefine Lindeløff</title>
+<style>
+:root{--ink:#eaf0ed;--muted:#aab8b3;--bg:#0a1111;--panel:#111d1b;--line:#31443d;--accent:#d7b65d;--green:#77968a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Segoe UI",Arial,sans-serif}
+.page{max-width:1100px;margin:auto;padding:28px}
+.topline{display:flex;justify-content:space-between;gap:20px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:16px}
+.kicker,.eyebrow{font-size:.76rem;letter-spacing:.17em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.pdf-button{background:var(--accent);color:var(--bg);border:0;border-radius:2px;padding:10px 14px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;white-space:nowrap}.pdf-button:hover{background:#e6c873}.top-actions{display:flex;gap:16px;align-items:center}.mark{font-size:.76rem;letter-spacing:.14em;color:var(--muted);text-align:right}
+.hero{padding:64px 0 46px;display:grid;grid-template-columns:1.4fr .6fr;gap:38px;align-items:end}
+h1{font-size:clamp(2.1rem,4.4vw,3.8rem);line-height:1.02;letter-spacing:-.055em;margin:15px 0 24px;text-transform:uppercase;max-width:760px}
+h1 span{color:var(--accent)}
+.lead{font-size:1.22rem;line-height:1.5;max-width:700px;color:#d4dfda}
+.hero-note{border-left:2px solid var(--accent);padding:14px 0 14px 20px;color:var(--muted);font-size:.92rem}
+.hero-note strong{display:block;color:var(--ink);font-size:1.1rem;margin-bottom:8px}
+.rule{height:4px;background:linear-gradient(90deg,var(--accent) 0 95px,var(--line) 95px 100%);margin:0 0 38px}
+.layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(250px,.75fr);gap:26px}
+.panel{background:var(--panel);border:1px solid var(--line);padding:28px;border-radius:3px}
+.panel h2{font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 20px}
+.letter p{margin:0 0 17px}
+.letter .signoff{margin-top:26px}
+.sidebar{display:flex;flex-direction:column;gap:18px}
+.fact{padding:0 0 17px;border-bottom:1px solid var(--line)}
+.fact:last-child{border:0;padding-bottom:0}
+.fact h3{font-size:.9rem;text-transform:uppercase;letter-spacing:.07em;margin:0 0 5px}
+.fact p{font-size:.91rem;color:var(--muted);margin:0}
+.number{color:var(--accent);font:700 1.7rem/1.1 "Segoe UI",Arial,sans-serif;margin-bottom:8px}
+.timeline{margin-bottom:26px}.timeline-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.timeline-grid .step{min-height:135px}.timeline-year{display:block;color:var(--accent);font-weight:700;font-size:.78rem;letter-spacing:.08em;margin-bottom:8px}.process{margin-top:26px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.step{border-top:2px solid var(--accent);padding:15px 12px;background:#0c1513}
+.step b{display:block;font-size:.84rem;letter-spacing:.04em;text-transform:uppercase;margin-bottom:7px}
+.step span{display:block;color:var(--muted);font-size:.84rem;line-height:1.5}
+.footer{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-top:36px;padding:20px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem}
+.footer a{color:var(--accent);text-decoration:none}.footer a:hover{text-decoration:underline}.footer strong{color:var(--ink);display:block;font-size:1rem}
+.note{font-size:.78rem;color:var(--muted);margin-top:20px}
+@media(max-width:760px){.top-actions{flex-wrap:wrap}.mark{text-align:left}.page{padding:18px}.hero,.layout{grid-template-columns:1fr}.hero{padding:42px 0 30px;gap:20px}.hero-note{max-width:560px}.steps{grid-template-columns:repeat(2,1fr)}.panel{padding:21px}.mark{text-align:left}.topline{align-items:flex-start;flex-direction:column}}
+@media print{
+ @page{size:A4;margin:12mm}
+ .pdf-button{display:none!important}.timeline-grid .step{min-height:0;break-inside:avoid}
+ body{background:#fff;color:#17211e;font-size:10pt;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .page{max-width:none;padding:0}.topline{border-color:#9aa8a2}.hero{padding:25px 0 22px;gap:20px}h1{font-size:27pt;color:#17211e}.lead{font-size:12pt;color:#263a33}.hero-note{color:#40514a}.hero-note strong{color:#17211e}
+ .panel{background:#f2f5f3;border-color:#b7c4bd;color:#17211e;padding:18px}.panel h2,.eyebrow,.kicker,.number{color:#715a1c}.fact p,.step span,.footer,.note{color:#40514a}.step{background:#e8eeea}.fact{border-color:#c4cec8}.layout{grid-template-columns:1.5fr .8fr;gap:14px}.steps{grid-template-columns:repeat(4,1fr)}.process{margin-top:14px}.footer{margin-top:16px} 
+}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="topline">
+    <div class="kicker">Søknad · Heimevernet</div>
+    <div class="top-actions"><div class="mark">INFORMASJONSFORVALTNING / TEKNOLOGI / BESLUTNINGSSTØTTE</div><button class="pdf-button" type="button" onclick="window.print()">Last ned PDF</button></div>
+  </div>
+
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Jeanette Bellefine Lindeløff</div>
+      <h1>Fra data<br>til <span>beslutningskraft.</span></h1>
+      <p class="lead">Jeg vil gjøre kompleks informasjon mer strukturert, tilgjengelig og nyttig – slik at teknologi støtter menneskene som skal løse oppdraget.</p>
+    </div>
+    <aside class="hero-note">
+      <strong>9+ år i DNB</strong>Fra kundeservice til produktledelse.<br><br><strong>Product Manager, Developer Portal</strong>DNB · T&S Data Management · i dag<br><br><strong>Kan sikkerhetsklareres</strong>Innstilt på nødvendig klareringsprosess.
+    </aside>
+  </section>
+
+  <div class="rule"></div>
+
+  <section class="layout">
+    <article class="panel letter">
+      <h2>Søknad · Informasjonsforvalter</h2>
+      <p>Hei,</p>
+      <p>Det som gjør stillingen som informasjonsforvalter i Heimevernet særlig interessant for meg, er oppgaven med å gjøre informasjon til et reelt grunnlag for handling og gode beslutninger. Når informasjon skal brukes på tvers av fagmiljøer og systemer, er struktur, sporbarhet, tydelig dokumentasjon og god brukerforståelse avgjørende. Det er nettopp i dette skjæringspunktet mellom mennesker, prosesser, data og teknologi jeg har bygget erfaringen min.</p>
+      <p>Jeg har over ni års erfaring fra DNB, fra kundedialog og IT-støtte til teknisk rådgivning og produktledelse. I dag er jeg Product Manager for Developer Portal i DNB, i seksjonen T&amp;S Data Management. Jeg har ansvar for videreutvikling av en plattform som dokumenterer API-er, hendelser og integrasjonsløsninger for interne og eksterne utviklere. Arbeidet handler blant annet om å forstå behov, prioritere forbedringer og gjøre teknisk informasjon mer strukturert, tilgjengelig og selvbetjent.</p>
+      <p>Dette er erfaring jeg mener er relevant for Heimevernets arbeid med informasjonsforvaltning. God informasjon handler ikke bare om å samle data, men om å gjøre det mulig å finne, forstå og bruke dem på riktig måte. Gjennom arbeidet med dokumentasjon og integrasjoner har jeg fått innsikt i hvordan systemer henger sammen, hvordan informasjon beveger seg mellom løsninger, og hvor viktig tydelige strukturer er for at andre skal kunne arbeide effektivt.</p>
+      <p>Fra tidligere roller i DNB har jeg med meg praktisk erfaring med teknisk feilsøking, tilgangs- og brukerproblemer, opplæring og forbedring av arbeidsrutiner. Jeg er vant til å sette meg raskt inn i nye systemer, samarbeide på tvers av fagmiljøer og forklare tekniske problemstillinger på en forståelig måte. Når nye verktøy eller arbeidsmetoder skal tas i bruk, mener jeg at god innføring krever både faglig struktur og forståelse for menneskene som skal bruke løsningene.</p>
+      <p>Jeg bruker KI aktivt til å strukturere møtenotater, utvikle skills og agenter for Jira og lage designskisser. Jeg utforsker hvordan KI kan effektivisere arbeidsprosesser og er opptatt av ansvarlig bruk innenfor virksomhetens rammer.</p>
+      <p>Forsvar, samfunnssikkerhet og etterretning har interessert meg lenge, og jeg motiveres av at arbeidet i Forsvaret har et viktig samfunnsansvar. I kundeservice i DNB syntes jeg det var særlig interessant å oppdage mønstre i kunders bruk av banken og melde fra internt om mulig misbruk, slik at forhold som kunne indikere kriminalitet, ble fulgt opp. Erfaringen styrket interessen min for hvordan informasjon kan brukes til å avdekke avvik og støtte gode vurderinger. Jeg kan sikkerhetsklareres og er innstilt på å gjennomføre nødvendig klareringsprosess.</p>
+      <p>Jeg ser frem til muligheten til å utdype hvordan erfaringen min kan brukes i Heimevernets videre arbeid med informasjonsforvaltning.</p>
+      <p class="signoff">Med vennlig hilsen<br><strong>Jeanette Bellefine Lindeløff</strong></p>
+    </article>
+
+    <aside class="sidebar">
+      <section class="panel">
+        <h2>Relevant erfaring</h2>
+        <div class="fact"><div class="number">01</div><h3>Informasjon i struktur</h3><p>Produktansvar for Developer Portal med API-dokumentasjon, hendelser og integrasjonsløsninger.</p></div>
+        <div class="fact"><div class="number">02</div><h3>Teknologi i praksis</h3><p>Erfaring med API-er, Open Banking, teknisk rådgivning, integrasjoner og feilsøking.</p></div>
+        <div class="fact"><div class="number">03</div><h3>Innføring og forbedring</h3><p>Opplæring av nyansatte, forbedring av rutiner og støtte til brukere i ulike roller.</p></div>
+        <div class="fact"><div class="number">04</div><h3>Praktisk KI-bruk</h3><p>KI til møtenotater, Jira-skills og -agenter, samt skisser og design-mockups.</p></div>
+        <div class="fact"><div class="number">05</div><h3>Faglig brobygger</h3><p>Behovsavklaring, backlog-prioritering og samarbeid mellom utviklere, fagmiljøer og interessenter.</p></div>
+      </section>
+      <section class="panel">
+        <h2>Faglig grunnlag</h2>
+        <div class="fact"><h3>Bachelor i webutvikling</h3><p>NTNU · 2015–2019</p></div>
+        <div class="fact"><h3>Verktøy og arbeidsform</h3><p>Jira, Confluence, Azure DevOps, Microsoft 365, Scrum/Kanban og workshops.</p></div>
+        <div class="fact"><h3>Språk</h3><p>Norsk og engelsk · god skriftlig og muntlig fremstillingsevne.</p></div>
+      </section>
+    </aside>
+  </section>
+
+  <section class="panel process">
+    <h2>Slik tenker jeg om informasjonsflyt</h2>
+    <div class="steps">
+      <div class="step"><b>01 / Forstå</b><span>Kartlegg behov, brukere og informasjonskilder.</span></div>
+      <div class="step"><b>02 / Strukturere</b><span>Skap tydelig dokumentasjon, sammenheng og sporbarhet.</span></div>
+      <div class="step"><b>03 / Tilgjengeliggjøre</b><span>Gjør informasjon enklere å finne, forstå og gjenbruke.</span></div>
+      <div class="step"><b>04 / Forbedre</b><span>Vurder nye verktøy og KI ut fra nytte, kvalitet og ansvarlig bruk.</span></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div><strong>Jeanette Bellefine Lindeløff</strong>Informasjonsforvaltning · digital produktutvikling</div>
+    <div><a href="mailto:Jeanettebellefine@gmail.com">Jeanettebellefine@gmail.com</a><br><a href="tel:+4790572665">+47 905 72 665</a></div>
+  </footer>
+</main>
+</body>
+</html>
